@@ -2,6 +2,8 @@ FROM openjdk:12
 
 COPY sp-playcount-librespot-v1.3.jar sp-playcount-librespot.jar
 
+COPY config.toml config.toml
+
 ARG SPOTIFY_ACC
 ENV ENV_SPOTIFY_ACC=$SPOTIFY_ACC
 

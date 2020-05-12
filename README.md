@@ -9,7 +9,7 @@ $ docker build --build-arg SPOTIFY_ACC=your_acc --build-arg SPOTIFY_PW=your_pw -
 
 To run on port 80:
 ```
-docker run -p 80:8000 sp-playcount-librespot
+docker run -p 80:80 sp-playcount-librespot
 ```
 
 Test:
